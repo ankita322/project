@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1, h2{
+    color: white;
+}
+
+h1, h2{
+    background-color: #E60023;
+}
+h3{
+    color: black;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    
+}
+
+.mosaic {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.mosaic img {
+    width: 100%;
+    border-radius: 5px;
+}
